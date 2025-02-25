@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+langchain
+openai
+requests
+beautifulsoup4
+pandas
+schedule
+torch

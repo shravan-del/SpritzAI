@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  scraper:
+    build: ./models/Scrapers  # Correct path to your scraper
+    container_name: product_scraper
+    volumes:
+      - ./data:/app/data  # Persist scraped data outside the container
+    restart: unless-stopped
