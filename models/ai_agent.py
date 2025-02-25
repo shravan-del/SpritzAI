@@ -27,7 +27,6 @@ class State(TypedDict):
 
 model = "gpt-3.5-turbo-1106"
 temperature = 0.6
-openai_api_key = "temp"
 llm = ChatOpenAI(model=model, temperature=temperature, openai_api_key=openai_api_key)
 
 ionic_tool = IonicTool().tool()
