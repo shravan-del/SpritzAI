@@ -27,7 +27,7 @@ class State(TypedDict):
 
 model = "gpt-3.5-turbo-1106"
 temperature = 0.6
-openai_api_key = ('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')
+# openai_api_key = ('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')
 llm = ChatOpenAI(model=model, temperature=temperature, openai_api_key=openai_api_key)
 
 ionic_tool = IonicTool().tool()
